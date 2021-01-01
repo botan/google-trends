@@ -39,7 +39,7 @@ trend %>%
   scale_fill_gradientn(colors = c("#011532", "#afd3e9", "#ebf3fa", "#ed2412", "#660005")) + 
   guides(fill = guide_colorbar(barwidth = 12, barheight = 0.4, unit = "cm")) + 
   labs(
-    title = "Coronavirus",
+    title = "CORONAVIRUS",
     subtitle = "<br>The Most Searched Word<br> on <span style='color:#4285F4'>G</span><span style='color:#EA4335'>o</span><span style='color:#FBBC05'>o</span><span style='color:#4285F4'>g</span><span style='color:#34A853'>l</span><span style='color:#EA4335'>e</span><br>",
     caption = "\n\n Data by Google Trends \n Visualization by @botanagin"
   ) + 
