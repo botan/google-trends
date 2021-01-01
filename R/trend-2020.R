@@ -10,7 +10,7 @@ font_add_google("Playfair Display", bold.wt = 700)
 showtext_auto()
 
 # Get data ----------------------------------------------------------------
-trend_raw <- gtrends("Coronavirus", time = "today 12-m")
+trend_raw <- gtrends("Coronavirus", time = "2020-01-01 2020-12-31")
 
 # Wrangle -----------------------------------------------------------------
 trend <- trend_raw %>% 
